@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 // Components:
 import Pagination from './Pagination';
@@ -48,5 +49,11 @@ const Gif = ({ gifsResults, search }) => {
    
   )
 }
+
+Gif.protoTypes = {
+    gifsResults: PropTypes.array.isRequired,
+    search: PropTypes.string.isRequired
+}
+
 
 export default Gif

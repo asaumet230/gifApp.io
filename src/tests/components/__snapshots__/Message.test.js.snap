@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas componente <Message /> Componente <Message /> debe renderizarse correctamente con un snapShot 1`] = `
+<div
+  className="mensaje"
+>
+  <h2>
+    Ups!
+  </h2>
+  <p>
+     No hay resultados  disponible pero si tienes historial has click en este. 
+  </p>
+</div>
+`;
